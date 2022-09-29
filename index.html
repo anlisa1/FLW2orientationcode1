@@ -1,0 +1,106 @@
+<!DOCTYPE html> <html><head>
+        <title>FLW2orientationcode1</title>
+    <style>.header{
+    background-color:blue;
+    display:flex;  
+    text-align:center;
+    justify-content:center;
+    
+}
+
+h1{
+	margin-left:5px;
+}
+body{
+	text-align:center;
+    background-color:#cee2eb;
+}
+.stuff{
+    display:flex;
+    justify-content:space-between;
+}
+
+div{
+	border:inset 5px white;
+    background-color:gray;
+    padding:10px;
+}
+.horizontal-align{
+	display:flex;
+    justify-content:center;
+}
+img{
+	border:white double 2px;
+    margin:4px;
+}</style></head>
+    <body>
+        <div class="header">
+            <img height="50px" src="https://www.kindpng.com/picc/m/200-2002759_september-vacation-clipart-apple-clip-art-with-no.png">
+        	<h1>Anlisa's Menu</h1>
+        </div>
+        <img class="ww" height="300px" src="https://i.pinimg.com/736x/cc/44/dd/cc44dddddc9157b15e09f15a7c26c8aa--perspective-drawing.jpg">
+        <div>
+        	<h2>Top Sellers</h2>
+            <ol>
+                <li><h3>Egg rolls</h3></li>
+                <li><h3>Fried Taro</h3></li>
+				<li><h3>Fried Radish Cakes</h3></li>
+                <li><h3>Fried Noodle with beef</h3></li>
+            </ol>
+        </div>
+        <div class="stuff">
+            <div>
+                <h3>Dim Sum</h3>
+                <ul>
+                    <li>Fried Taro</li>
+                    <li>Fried Radish Cake</li>
+                    <li>Shrimp dumplings</li>
+                    <li>Fried Dumplings</li>
+                    <li>Steamed pork buns</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Dishes</h3>
+                <ul>
+                    <li>Fried Noodle with Beef</li>
+                    <li>Fried Rice</li>
+                    <li>Fried Beans</li>
+                    <li>Stir Fry Broccoli and Beef</li>
+                    <li>Tea eggs</li>
+                </ul>
+            </div>
+        </div>
+        <div class="horizontal-align">
+            <img class="cc" height="150px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Fried_taro_cake.jpg/1200px-Fried_taro_cake.jpg">
+            <img class="cc" src="https://www.jessicagavin.com/wp-content/uploads/2021/02/chicken-fried-rice-21-1200.jpg" height="150px">
+            <img class="cc" src="https://images.media-allrecipes.com/userphotos/2090439.jpg" height="150px">
+            <img class="cc" src="https://natashaskitchen.com/wp-content/uploads/2019/08/Beef-and-Broccoli-2-500x375.jpg" height="150px">
+        </div>
+    
+
+<script>
+/*__POPCODESTART__*/
+// $("img").click(function(){
+//    $("body").css("background-color","#e4edf2");      
+// });
+// $(".header").click(function(){
+//    $("div").css("background-color","#a5c5d6");      
+// });
+var button = document.querySelector(".header");
+var button2 = document.querySelector(".stuff");
+var header = document.querySelector("h1");
+var div = document.querySelector("div");
+var img1 = document.querySelector(".cc");
+var img = document.querySelector(".ww");
+
+button.onclick = function () {
+  header.innerHTML = "Random Person's Restaurant";
+  img.style.width = "400px";
+  img1.style.width = "600px";
+};
+
+button2.onclick = function () {
+  header.innerHTML = "Whoses Restaurant?";
+  img.style.width = "1000pxpx";
+};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvcGNvZGVQcmV2aWV3LmpzIl0sIm5hbWVzIjpbImJ1dHRvbiIsImRvY3VtZW50IiwicXVlcnlTZWxlY3RvciIsImJ1dHRvbjIiLCJoZWFkZXIiLCJkaXYiLCJpbWcxIiwiaW1nIiwib25jbGljayIsImlubmVySFRNTCIsInN0eWxlIiwid2lkdGgiXSwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUVBLElBQUlBLE1BQU0sR0FBRUMsUUFBUSxDQUFDQyxhQUFULENBQXVCLFNBQXZCLENBQVo7QUFDQSxJQUFJQyxPQUFPLEdBQUVGLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixRQUF2QixDQUFiO0FBQ0EsSUFBSUUsTUFBTSxHQUFDSCxRQUFRLENBQUNDLGFBQVQsQ0FBdUIsSUFBdkIsQ0FBWDtBQUNBLElBQUlHLEdBQUcsR0FBQ0osUUFBUSxDQUFDQyxhQUFULENBQXVCLEtBQXZCLENBQVI7QUFDQSxJQUFJSSxJQUFJLEdBQUNMLFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixLQUF2QixDQUFUO0FBQ0EsSUFBSUssR0FBRyxHQUFDTixRQUFRLENBQUNDLGFBQVQsQ0FBdUIsS0FBdkIsQ0FBUjs7QUFFQUYsTUFBTSxDQUFDUSxPQUFQLEdBQWUsWUFBVTtBQUNyQkosRUFBQUEsTUFBTSxDQUFDSyxTQUFQLEdBQWlCLDRCQUFqQjtBQUNBRixFQUFBQSxHQUFHLENBQUNHLEtBQUosQ0FBVUMsS0FBVixHQUFnQixPQUFoQjtBQUNBTCxFQUFBQSxJQUFJLENBQUNJLEtBQUwsQ0FBV0MsS0FBWCxHQUFpQixPQUFqQjtBQUNILENBSkQ7O0FBS0FSLE9BQU8sQ0FBQ0ssT0FBUixHQUFnQixZQUFVO0FBQ3RCSixFQUFBQSxNQUFNLENBQUNLLFNBQVAsR0FBaUIsb0JBQWpCO0FBQ0FGLEVBQUFBLEdBQUcsQ0FBQ0csS0FBSixDQUFVQyxLQUFWLEdBQWdCLFVBQWhCO0FBQ0gsQ0FIRCIsInNvdXJjZXNDb250ZW50IjpbIi8vICQoXCJpbWdcIikuY2xpY2soZnVuY3Rpb24oKXtcbi8vICAgICQoXCJib2R5XCIpLmNzcyhcImJhY2tncm91bmQtY29sb3JcIixcIiNlNGVkZjJcIik7ICAgICAgXG4vLyB9KTtcbi8vICQoXCIuaGVhZGVyXCIpLmNsaWNrKGZ1bmN0aW9uKCl7XG4vLyAgICAkKFwiZGl2XCIpLmNzcyhcImJhY2tncm91bmQtY29sb3JcIixcIiNhNWM1ZDZcIik7ICAgICAgXG4vLyB9KTtcblxubGV0IGJ1dHRvbj0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcIi5oZWFkZXJcIik7XG5sZXQgYnV0dG9uMj0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcIi5zdHVmZlwiKTtcbmxldCBoZWFkZXI9ZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcImgxXCIpO1xubGV0IGRpdj1kb2N1bWVudC5xdWVyeVNlbGVjdG9yKFwiZGl2XCIpO1xubGV0IGltZzE9ZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcIi5jY1wiKTtcbmxldCBpbWc9ZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcIi53d1wiKTtcblxuYnV0dG9uLm9uY2xpY2s9ZnVuY3Rpb24oKXtcbiAgICBoZWFkZXIuaW5uZXJIVE1MPVwiUmFuZG9tIFBlcnNvbidzIFJlc3RhdXJhbnRcIjtcbiAgICBpbWcuc3R5bGUud2lkdGg9XCI0MDBweFwiOyAgXG4gICAgaW1nMS5zdHlsZS53aWR0aD1cIjYwMHB4XCI7XG59O1xuYnV0dG9uMi5vbmNsaWNrPWZ1bmN0aW9uKCl7XG4gICAgaGVhZGVyLmlubmVySFRNTD1cIldob3NlcyBSZXN0YXVyYW50P1wiO1xuICAgIGltZy5zdHlsZS53aWR0aD1cIjEwMDBweHB4XCI7ICBcbn07Il19</script></body></html>
