@@ -1,0 +1,33 @@
+.header{
+    background-color:blue;
+    display:flex;  
+    text-align:center;
+    justify-content:center;
+    
+}
+
+h1{
+	margin-left:5px;
+}
+body{
+	text-align:center;
+    background-color:#cee2eb;
+}
+.stuff{
+    display:flex;
+    justify-content:space-between;
+}
+
+div{
+	border:inset 5px white;
+    background-color:gray;
+    padding:10px;
+}
+.horizontal-align{
+	display:flex;
+    justify-content:center;
+}
+img{
+	border:white double 2px;
+    margin:4px;
+}
